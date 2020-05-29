@@ -1,0 +1,110 @@
+body {
+  background-color: #e9ebef;
+}
+.logo-facebook {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/0us57sKkEcq.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 -33px;
+  height: 24px;
+  width: 24px;
+  outline: none;
+  overflow: hidden;
+  text-indent: -999px;
+  white-space: nowrap;
+}
+nav {
+  padding-top: 9px;
+  background-color: #4267b2;
+}
+.boton-search {
+  background: #f5f6f7;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  bottom: 0;
+  cursor: pointer;
+  display: block;
+  line-height: 1;
+  padding: 3px 5px 2px 12px;
+  .search {
+    font-size: 16px;
+    border: 0px;
+  }
+}
+
+.form-control {
+  border: 0px;
+  border-radius: 2px;
+  height: 24px;
+}
+.logo-search {
+  display: inline-block;
+}
+.color-text {
+  color: white;
+  font-size: 12px;
+  padding-left: 5px;
+}
+.color-icono {
+  color: white;
+}
+
+.nav-link {
+  padding: 6px;
+  border-radius: 5px;
+}
+.barra::before {
+  content: "";
+  width: 1px;
+  height: 18px;
+  top: 9px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.1);
+}
+.space-barra {
+  padding-left: 20px;
+}
+ion-icon {
+  font-size: 23px;
+  margin-right: 8px;
+}
+
+.dropdown-toggle {
+  color: black;
+  font-size: 21px;
+}
+.photo {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+.space-icono {
+  padding-left: 5px;
+}
+.container-red {
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  left: 16px;
+  text-align: center;
+}
+.content-ico-num {
+  position: relative;
+}
+section {
+  background-color: white;
+}
+.photo {
+  zoom: 0.9;
+}
+.text {
+  font-size: 13px;
+}
+
+.box-hover:hover {
+  background-color: #3b5c9f;
+  cursor: pointer;
+}
