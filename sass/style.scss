@@ -14,7 +14,6 @@ body {
   white-space: nowrap;
 }
 nav {
-  padding-top: 9px;
   background-color: #4267b2;
 }
 .boton-search {
@@ -39,28 +38,21 @@ nav {
 }
 .logo-search {
   display: inline-block;
+  padding-top: 8px;
 }
-.color-text {
-  color: white;
-  font-size: 12px;
-  padding-left: 5px;
-}
+// .color-text {
+//   font-size: 12px;
+//   padding-left: 5px;
+// }
 .color-icono {
   color: white;
 }
 
 .nav-link {
-  padding: 6px;
+  padding: 5px;
   border-radius: 5px;
 }
-.barra::before {
-  content: "";
-  width: 1px;
-  height: 18px;
-  top: 9px;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.1);
-}
+
 .space-barra {
   padding-left: 20px;
 }
@@ -104,7 +96,26 @@ section {
   font-size: 13px;
 }
 
-.box-hover:hover {
-  background-color: #3b5c9f;
-  cursor: pointer;
+.barra {
+  &::before {
+    content: "";
+    width: 1px;
+    height: 18px;
+    top: 9px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.b-activ {
+  color: white;
+  &:hover {
+    background-color: #3b5c9f;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+.ico-activ:hover {
+  color: black;
 }

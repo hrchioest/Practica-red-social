@@ -16,7 +16,6 @@ body {
 }
 
 nav {
-  padding-top: 9px;
   background-color: #4267b2;
 }
 
@@ -43,12 +42,7 @@ nav {
 
 .logo-search {
   display: inline-block;
-}
-
-.color-text {
-  color: white;
-  font-size: 12px;
-  padding-left: 5px;
+  padding-top: 8px;
 }
 
 .color-icono {
@@ -56,17 +50,8 @@ nav {
 }
 
 .nav-link {
-  padding: 6px;
+  padding: 5px;
   border-radius: 5px;
-}
-
-.barra::before {
-  content: "";
-  width: 1px;
-  height: 18px;
-  top: 9px;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.1);
 }
 
 .space-barra {
@@ -120,9 +105,26 @@ section {
   font-size: 13px;
 }
 
-.box-hover:hover {
+.barra::before {
+  content: "";
+  width: 1px;
+  height: 18px;
+  top: 9px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.b-activ {
+  color: white;
+}
+.b-activ:hover {
   background-color: #3b5c9f;
+  border-radius: 8px;
   cursor: pointer;
+}
+
+.ico-activ:hover {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
