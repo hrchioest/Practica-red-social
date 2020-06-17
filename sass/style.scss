@@ -149,7 +149,7 @@ section {
   background-position: 0 -2018px;
 }
 .market {
-  background-position: 0 -673px;
+  background-position: 0 -1052px;
 }
 .img {
   margin: auto;
@@ -161,4 +161,30 @@ section {
 }
 .parts-left {
   margin-top: 10px;
+}
+.covid {
+  background-position: 0 -1682px;
+}
+.list-group-item {
+  background-color: #e9ebef;
+  border: 0;
+}
+.content-ico-coder {
+  border: solid 2px;
+}
+.img-coder {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  border-color: #3578e5;
+}
+.wrapper-icono::after {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
