@@ -177,7 +177,6 @@ section {
   height: 40px;
   width: 40px;
   overflow: hidden;
-  border-color: #3578e5;
 }
 .wrapper-icono::after {
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -187,4 +186,14 @@ section {
   position: absolute;
   right: 0;
   top: 0;
+}
+.list-group-item {
+  padding: 4px;
+  &:hover {
+    border: solid 1px #dfe1e5;
+    background-color: #f5f6f7;
+  }
+}
+.li-disabled {
+  background-color: #e9ebef;
 }
