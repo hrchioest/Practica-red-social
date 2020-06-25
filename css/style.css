@@ -275,6 +275,13 @@ section {
   margin: 0;
 }
 
+.content-button::before {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  vertical-align: middle;
+}
+
 .img-button {
   background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/IzX1vvOaA5b.png);
   background-size: auto;
@@ -286,6 +293,16 @@ section {
   background-color: #f5f6f7;
   border-color: #ccd0d5;
   color: #4b4f56;
+}
+
+.button {
+  line-height: 26px;
+  background-color: #f5f6f7;
+  border-color: #ccd0d5;
+  color: #4b4f56;
+  border: 1px solid #c0b6b6;
+  border-radius: 2px;
+  padding: 4px 11px 6px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
