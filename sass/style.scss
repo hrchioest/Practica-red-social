@@ -1,0 +1,269 @@
+body {
+  background-color: #e9ebef;
+  color: #1d2129;
+}
+.logo-facebook {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/0us57sKkEcq.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 -33px;
+  height: 24px;
+  width: 24px;
+  outline: none;
+  overflow: hidden;
+  text-indent: -999px;
+  white-space: nowrap;
+}
+nav {
+  background-color: #4267b2;
+}
+.boton-search {
+  background: #f5f6f7;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  bottom: 0;
+  cursor: pointer;
+  display: block;
+  line-height: 1;
+  padding: 3px 5px 2px 12px;
+  .search {
+    font-size: 16px;
+    border: 0px;
+  }
+}
+
+.form-control {
+  border: 0px;
+  border-radius: 2px;
+  height: 24px;
+}
+.logo-search {
+  display: inline-block;
+  padding-top: 8px;
+}
+
+.color-icono {
+  color: white;
+}
+
+.nav-link {
+  padding: 0px;
+  border-radius: 5px;
+}
+
+.space-barra {
+  padding-left: 20px;
+}
+ion-icon {
+  font-size: 23px;
+  margin-right: 8px;
+}
+
+.dropdown-toggle {
+  color: black;
+  font-size: 21px;
+}
+.photo {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+.space-icono {
+  padding-left: 5px;
+}
+.container-red {
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  left: 16px;
+  text-align: center;
+}
+.content-ico-num {
+  position: relative;
+}
+section {
+  background-color: white;
+}
+.photo {
+  zoom: 0.9;
+}
+.text {
+  font-size: 13px;
+}
+
+.barra {
+  &::before {
+    content: "";
+    width: 1px;
+    height: 18px;
+    top: 9px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+.btn-text {
+  font-size: 12px;
+  line-height: 28px;
+}
+
+.b-activ {
+  color: white;
+  &:hover {
+    background-color: #3b5c9f;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.ico-activ {
+  padding-left: 12px;
+  padding-right: 2px;
+  &:hover {
+    color: black;
+    cursor: pointer;
+  }
+}
+.logo-iconos {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/Jv3iW7VbqrE.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.noticia {
+  background-position: 0 -1367px;
+}
+.msm {
+  background-position: 0 -254px;
+}
+.logo-ico {
+  font-size: 13px;
+}
+.watch {
+  background-position: 0 -2018px;
+}
+.market {
+  background-position: 0 -1052px;
+}
+.img {
+  margin: auto;
+  max-height: 20px;
+  max-width: 20px;
+}
+.trio-parts {
+  margin-top: 10px;
+}
+.parts-left {
+  margin-top: 10px;
+}
+.covid {
+  background-position: 0 -1682px;
+}
+.list-group-item {
+  background-color: #e9ebef;
+  border: 0;
+}
+.content-ico-coder {
+  border: solid 2px;
+}
+.img-coder {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  padding: 1px;
+}
+.wrapper-icono {
+  border: 2px solid blue;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+}
+.coderhouse {
+  color: #385898;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+.img-wordl {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/fmdH_AvHnmP.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background-position: -26px -295px;
+}
+.list-group-item {
+  padding: 4px;
+  background-color: #e9ebef;
+  &:hover {
+    border: solid 1px #dfe1e5;
+    background-color: #f5f6f7;
+  }
+}
+.disabled {
+  background-color: #e9ebef;
+}
+.text-description {
+  font-size: 12px;
+  color: #616770;
+}
+.link {
+  color: #385898;
+}
+.text-title-bi {
+  font-weight: 600;
+}
+.li-img-principal {
+  padding-bottom: 12px;
+}
+.li-right {
+  background-color: #fff;
+  margin: 6px;
+  padding: 10px;
+}
+.link-lr {
+  font-weight: 600;
+}
+.text-lr {
+  color: #90949c;
+  padding: 0 4px 0px 5px;
+  margin: 0;
+}
+.content-button {
+  &::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+  }
+}
+.img-button {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/IzX1vvOaA5b.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: 0 -678px;
+  width: 12px;
+  height: 12px;
+  background-color: #f5f6f7;
+  border-color: #ccd0d5;
+  color: #4b4f56;
+}
+.button {
+  line-height: 26px;
+  background-color: #f5f6f7;
+  border-color: #ccd0d5;
+  color: #4b4f56;
+  border: 1px solid #c0b6b6;
+  border-radius: 2px;
+  padding: 4px 11px 6px 10px;
+}
